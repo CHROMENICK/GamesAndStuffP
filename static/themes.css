@@ -1,0 +1,18 @@
+body[theme="main"] {
+    --text-color: #000000;
+        --background: linear-gradient(#e21f1f, #2233cf);
+            --navbar: #e22e2e;
+                --accent: #0284d4;
+}
+body[theme="amoled"] {
+    --text-color: #ebebeb;
+    --background: #000000;
+    --navbar: #0f0f0f;
+    --accent: #7700ff;
+}
+body[theme="dark"] {
+    --text-color: white;
+    --background: #1a2023;
+    --navbar: #0e1213;
+    --accent: #7700ff;
+}
