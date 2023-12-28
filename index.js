@@ -18,6 +18,7 @@ app.use(express.static(path.join(__dirname, 'static')));
 const routes = [
   { path: '/', file: 'index.html' },
   { path: '/search', file: 'search.html' },
+  { path: '/image-galleries', file: 'go.html' },
 ];
 
 app.get('/edu/*', cors({ origin: false }), async (req, res, next) => {
