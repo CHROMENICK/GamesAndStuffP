@@ -96,6 +96,7 @@ div#particles-js {
 }
 
 .column img {
+    position: absolute;
     width: 145px;
     height: 145px;
     border-radius: 0px;
