@@ -68,3 +68,18 @@ div#particles-js {
   position: relative;
   top: 200px;
 }
+.container-apps {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.3em;
+    flex-direction: row;
+}
+.pinned-apps {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.3em;
+}
