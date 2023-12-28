@@ -84,13 +84,10 @@ div#particles-js {
     gap: 2.3em;
 }
 .column {
-    transition: all 0.2s ease;
     cursor: pointer;
     background: rgba(0, 0, 0, 0.2);
 }
 .column img {
-    position: absolute;
-    transition: all 0.2s ease;
     border-radius: 10px;
 }
 .column:hover {
