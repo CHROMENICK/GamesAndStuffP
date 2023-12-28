@@ -7,6 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
      categories: ['all'],
      error: false
     },
+    {
+     name: "Bike Hero",
+     link: "https://www.coolmathgames.com/0-bike-hero/play",
+     image: "/assets/icons/BikeHero.png",
+     categories: ['all'],
+     error: false
+    },
 ]
 function saveToLocal(path) {
   localStorage.setItem("savedPaths", path);
