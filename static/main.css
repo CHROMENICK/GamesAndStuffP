@@ -75,6 +75,7 @@ div#particles-js {
     justify-content: center;
     gap: 2.3em;
     flex-direction: row;
+    cursor: pointer;
 }
 .pinned-apps {
     margin-top: 20px;
@@ -82,4 +83,5 @@ div#particles-js {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2.3em;
+    cursor: pointer;
 }
