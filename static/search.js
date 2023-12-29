@@ -45,7 +45,7 @@ function images(value) {
         if (!isUrl(url)) url = "https://www.google.com/search?q=" + url;
         else if (!(url.startsWith("https://") || url.startsWith("http://")))
           url = "https://" + url;
-        window.location.href = __uv$config.prefix + __uv$config.Ultraviolet.codec.xor.encode(url);
+        window.location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
       });
   }
   
