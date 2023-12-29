@@ -12,7 +12,7 @@ form.addEventListener("submit", async (event) => {
       if (!isUrl(url)) url = "https://www.google.com/search?q=" + url;
       else if (!(url.startsWith("https://") || url.startsWith("http://")))
         url = "http://" + url;
-      sessionStorage.setItem("encodedUrl", __uv$config.Ultraviolet.codec.xor.encode(url));
+      sessionStorage.setItem("encodedUrl", __uv$config.encodeUrl(url));
       location.href = "image-galleries";
     });
 });
@@ -29,7 +29,7 @@ function images(value) {
         if (!isUrl(url)) url = "https://www.google.com/search?q=" + url;
         else if (!(url.startsWith("https://") || url.startsWith("http://")))
           url = "https://" + url;
-        sessionStorage.setItem("encodedUrl", __uv$config.Ultraviolet.codec.xor.encode(url));
+        sessionStorage.setItem("encodedUrl", __uv$config.encodeUrl(url));
         location.href = "/image-galleries";
       });
   }
