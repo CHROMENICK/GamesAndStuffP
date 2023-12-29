@@ -29,16 +29,18 @@
           </nav>
 
          <div class="center-container">
-      <h1 id="sbackground1">Settings</h1>
+        <div class="sbackground1">
+      <h1>Settings</h1>
 
-      <h2 class="sbackground1">Tab cloaking</h2>
-      <input type="text" id="tabname" class="sbackground1" placeholder="Tab name" />
+      <h2>Tab cloaking</h2>
+      <input type="text" id="tabname" placeholder="Tab name" />
       <button onclick="setTab()" class="secondary">Set tab name</button> <br />
-      <input type="text" id="tabicon" class="sbackground1" placeholder="Tab icon" />
+      <input type="text" id="tabicon" placeholder="Tab icon" />
       <button onclick="setTab()" class="secondary">Set tab icon</button> <br />
 
       <br /><br />
-                          
+        </div>
+           <div class="sbackground2>               
                           <h2 class="settings">Themes</h2>
                           <select id="theme-select" class="settings">
                             <option value="main">Default</option>
@@ -48,7 +50,7 @@
                             <!-- add more options for other themes -->
                           </select>
                           
-                          <br /><br />                          
-
+                          <br /><br />  
+           </div>
                         <script src="settings.js"></script>
                         <script src="js/index.js"></script>
