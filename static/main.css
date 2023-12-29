@@ -62,6 +62,9 @@ div.siteinfos {
   margin-top: 5px;
   border-radius: 5px;
  }
+ button.secondary {
+  cursor: pointer;
+}
 .center-container {
   border-radius: 15px;
   position: relative;
