@@ -45,20 +45,23 @@ div.siteinfos {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--accent); 
 }
-.settings {
-  border-radius: 15px;
-  position: relative;
-  top: 150px;
+  input[type=text], button.secondary, select {
+     background-color: #111;
+     transition: 0.4s border;
+     border-radius: 5px;
+     border: none;
+     font-size: 20px;
+     color: white;
+     text-align: center;
+     padding: 5px 15px;
+     margin: 5px auto;
 }
-.settings-input {
-  padding: 5px;
-  border: 1px solid #ccc;
-}
-.settings-button {
-  padding: 5px;
-  border: 1px solid #ccc;
-  width: 100px;
-}
+ button.secondary {
+  height: 25px;
+  width: 25px;
+  margin-top: 5px;
+  border-radius: 5px;
+ }
 .center-container {
   border-radius: 15px;
   position: relative;
