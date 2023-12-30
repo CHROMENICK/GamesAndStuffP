@@ -1,15 +1,9 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-rel="shortcut icon"
-href="/Games & Stuff Logo (1).png"
-type="image/png"
-/>
-        <title>Games & Stuff</title>
-            <link rel="stylesheet" href="style.css">
-                <link href='https://fonts.googleapis.com/css?family=Lato:wght@700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" id="dynamic-favicon" href="favicon.png">
+    <title id="dynamic-title">Home</title>
+    <script src="https://kit.fontawesome.com/1237c86ba0.js" crossorigin="anonymous"></script>
+
     <!--- Style --->
     <style>
         body {
@@ -23,7 +17,8 @@ type="image/png"
             height: 100vh;
             width: 100vw;
         }
-            .navbtn {
+        
+        .navbtn {
             float: right;
             border-radius: 100%;
             width: 50px;
@@ -35,7 +30,7 @@ type="image/png"
             right: 10px;
         }
         
-            .navbtn1 {
+        .navbtn1 {
             float: right;
             border-radius: 100%;
             width: 50px;
@@ -45,9 +40,9 @@ type="image/png"
             position: fixed;
             top: 70px;
             right: 10px;
-            }
+        }
         
-            .navbtn2 {
+        .navbtn2 {
             float: right;
             border-radius: 100%;
             width: 50px;
@@ -57,8 +52,8 @@ type="image/png"
             position: fixed;
             top: 130px;
             right: 10px;
-            }
-            .navbtn3 {
+        }
+        .navbtn3 {
             float: right;
             border-radius: 100%;
             width: 50px;
@@ -68,7 +63,7 @@ type="image/png"
             position: fixed;
             top: 190px;
             right: 10px;
-            }
+        }
     </style>
 </head>
 
@@ -83,15 +78,6 @@ type="image/png"
     <button id="fullscreen-button" class="navbtn2"><i class="fa-solid fa-expand"></i></button>
     <button id="eruda-button" class="navbtn3" onclick="erudaToggle()"><i class="fa-solid fa-code"></i></button>
     </button>
-    <script>
-    </style>
-</head>
-
-<body>
-    <script>
-        window.addEventListener('resize', navigator.keyboard.lock(["Escape"]));
-    </script>
-    <iframe src="" id="iframeId" style="bottom: 0" style="border: 0px #ffffff none" name="Iframe" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" height="100%" width="100%" allowfullscreen></iframe>
     <script>
 
         function reload() {
@@ -141,5 +127,5 @@ type="image/png"
             iframe.src = encodedUrl;
         };
     </script>
-    <script src="/js/index.js"></script>
+    <script src="/assets/scripts/global.js?v=1"></script>
 </body>
