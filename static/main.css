@@ -109,6 +109,7 @@ div#particles-js {
     transition: all 0.2s ease;
     border-radius: 10px;
     justify-content: center;
+    padding-top: 5px;
 }
 
 .column p {
