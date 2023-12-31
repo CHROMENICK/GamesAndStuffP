@@ -110,6 +110,10 @@ div#particles-js {
     border-radius: 10px;
     justify-content: center;
     padding-top: 5px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    overflow-x: ;
+    overflow-y: ;
 }
 
 .column p {
