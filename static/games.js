@@ -39,17 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
     pinIcon.classList.add("fa-map-pin");
     pinIcon.ariaHidden = true;
 
-    const btn = document.createElement('button');
-    btn.appendChild(pinIcon);
-    btn.style.float = "right";
-    btn.style.backgroundColor="rgb(45,45,45)";
-    btn.style.borderRadius="50%";
-    btn.style.borderColor="transparent";
-    btn.style.color="white";
-    btn.style.top="-200px";
-    btn.style.position="relative";
-    btn.onclick = function () {
-      setPin(pinNum);
     };
     btn.title="Pin";
 
