@@ -109,7 +109,7 @@ div#particles-js {
     border-radius: 0px;
     transition: all 0.2s ease;
     border-radius: 10px;
-    margin-left: 30px
+    margin-left: -100px
 }
 
 .column p {
