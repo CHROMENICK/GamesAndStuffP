@@ -99,7 +99,7 @@ div#particles-js {
     padding-right: 10px;
     padding-top: 10px;
     margin: 0;
-    padding: 50px;
+    margin-top: auto;
 }
 
 .column img {
