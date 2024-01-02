@@ -17,24 +17,40 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add more apps here as needed
   ];
 
-  // Code for rendering apps with functionalities removed
   function renderApps() {
     const appsContainer = document.querySelector('.apps-container');
+
     appsList.forEach(app => {
       const columnDiv = document.createElement('div');
-      // Create elements and append to columnDiv based on app properties (name, image, etc.)
-      // Omitted for brevity
+      columnDiv.classList.add('column');
+      columnDiv.setAttribute('data-category', app.categories.join(' '));
+
+      const link = document.createElement('a');
+      link.href = app.link;
+
+      const image = document.createElement('img');
+      image.src = app.image;
+      image.alt = app.name;
+      image.width = 145;
+      image.height = 145;
+      image.loading = "lazy";
+
+      const paragraph = document.createElement('p');
+      paragraph.textContent = app.name;
+
+      link.appendChild(image);
+      link.appendChild(paragraph);
+      columnDiv.appendChild(link);
+
       appsContainer.appendChild(columnDiv);
     });
   }
 
-  // Code for filtering apps based on categories and search
   function filterApps() {
     // Code for filtering apps based on selected categories and search query
     // Omitted for brevity
   }
 
-  // Initial rendering of apps
   renderApps();
 
   // Event listeners for category selection and search
