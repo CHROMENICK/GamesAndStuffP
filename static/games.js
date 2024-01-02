@@ -34,11 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
     columnDiv.classList.add('column');
     columnDiv.setAttribute('data-category', app.categories.join(' '));
 
-    const pinIcon = document.createElement('i');
     pinIcon.classList.add("fa");
-    pinIcon.classList.add("fa-map-pin");
-    pinIcon.ariaHidden = false;
-
+    
     const btn = document.createElement('button');
     btn.appendChild(pinIcon);
     btn.style.float = "right";
