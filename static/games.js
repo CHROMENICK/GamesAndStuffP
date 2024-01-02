@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const pinIcon = document.createElement('i');
     pinIcon.classList.add("fa");
     pinIcon.classList.add("fa-map-pin");
-    pinIcon.ariaHidden = true;
+    pinIcon.ariaHidden = false;
 
     const btn = document.createElement('button');
     btn.appendChild(pinIcon);
