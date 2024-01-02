@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
   appsList.sort((a, b) => a.name.localeCompare(b.name));
   
   const nonPinnedApps = document.querySelector('.container-apps');
-  var pinList = localStorage.getItem("pinnedGames");
   try{
     pinList=pinList.split(",").map(Number)
     } catch {}
