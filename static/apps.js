@@ -8,6 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
      categories: ['all'],
      error: false
     },
+    {
+     name: "Movie-web",
+     link: "https://movie-web.app",
+     image: "/assets/icons/Movie-web.png",
+     categories: ['all'],
+     error: false
+    },
   ];
    appsList.sort((a, b) => a.name.localeCompare(b.name));
   
