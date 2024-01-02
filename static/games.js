@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
   appsList.sort((a, b) => a.name.localeCompare(b.name));
   
   const nonPinnedApps = document.querySelector('.container-apps');
+  var pinList = localStorage.getItem("pinnedGames");
   try{
     pinList=pinList.split(",").map(Number)
     } catch {}
@@ -34,8 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
     columnDiv.setAttribute('data-category', app.categories.join(' '));
 
     const pinIcon = document.createElement('i');
-    pinIcon.classList.add("fa");
-    pinIcon.classList.add("fa-map-pin");
     pinIcon.ariaHidden = true;
     
     const btn = document.createElement('button');
