@@ -15,8 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
      categories: ['all'],
      error: false
     }
-],
-function saveToLocal(path) {
+ ];
+  
+  function saveToLocal(path) {
     localStorage.setItem("savedPaths", path);
   }
   
