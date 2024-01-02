@@ -1,6 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
   const appsList = [
-
+    {
+     name: "! Game Request",
+     link: "https://forms.gle/LT6su3hTCe3Cu3qS6",
+     image: "/assets/icons/Game Request.png",
+     categories: ['all'],
+     error: false
+    },
     {
      name: "Bike Hero",
      link: "https://www.coolmathgames.com/0-bike-hero/play",
