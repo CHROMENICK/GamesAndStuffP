@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
      image: "/assets/icons/IdleBreakout.png",
      categories: ['all'],
      error: false
-    },
-]
-  function saveToLocal(path) {
+    }
+],
+function saveToLocal(path) {
     localStorage.setItem("savedPaths", path);
   }
   
@@ -36,7 +36,10 @@ document.addEventListener('DOMContentLoaded', () => {
     columnDiv.setAttribute('data-category', app.categories.join(' '));
 
     const pinIcon = document.createElement('i');
-    
+    pinIcon.classList.add("fa");
+    pinIcon.classList.add("fa-map-pin");
+    pinIcon.ariaHidden = true;
+
     const btn = document.createElement('button');
     btn.appendChild(pinIcon);
     btn.style.float = "right";
@@ -50,7 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
       setPin(pinNum);
     };
     btn.title="Pin";
-    };
 
     const link = document.createElement('a');
 
