@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
     columnDiv.setAttribute('data-category', app.categories.join(' '));
 
     const pinIcon = document.createElement('i');
-    pinIcon.ariaHidden = true;
     
     const btn = document.createElement('button');
     btn.appendChild(pinIcon);
