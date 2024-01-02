@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const appsList = [
 
     {
-     name: "G&S Chatroom",
-     link: "https://www.coolmathgames.com/0-bike-hero/play",
-     image: "/assets/icons/Chatroom.jpg",
+     name: "G&S Drawing Canvas",
+     link: "https://pixel.land/canvas/u1il1757/draw/KyHaXoQepjboofIB",
+     image: "/assets/icons/canvas.jpg",
      categories: ['all'],
      error: false
     },
