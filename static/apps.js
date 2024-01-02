@@ -1,6 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
   const appsList = [
-
+    {
+     name: "G&S Chat Room",
+     link: "https://e.widgetbot.io/channels/1191829882334875770/1191829882859180135",
+     image: "/assets/icons/Chatroom.jpg",
+     categories: ['all'],
+     error: false
+    },
     {
      name: "G&S Drawing Canvas",
      link: "https://pixel.land/canvas/u1il1757/draw/KyHaXoQepjboofIB",
