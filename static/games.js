@@ -1,16 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
   const appsList = [
-    {
-     name: "Idle Breakout",
-     link: "https://www.coolmathgames.com/0-idle-breakout/play",
-     image: "/assets/icons/IdleBreakout.png",
-     categories: ['all'],
-     error: false
-    },
+
     {
      name: "Bike Hero",
      link: "https://www.coolmathgames.com/0-bike-hero/play",
      image: "/assets/icons/BikeHero.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Idle Breakout",
+     link: "https://www.coolmathgames.com/0-idle-breakout/play",
+     image: "/assets/icons/IdleBreakout.png",
      categories: ['all'],
      error: false
     },
@@ -22,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
   appsList.sort((a, b) => a.name.localeCompare(b.name));
   
   const nonPinnedApps = document.querySelector('.container-apps');
-  const pinnedApps = document.querySelector('.pinned-apps');
   var pinList = localStorage.getItem("pinnedGames");
   try{
     pinList=pinList.split(",").map(Number)
