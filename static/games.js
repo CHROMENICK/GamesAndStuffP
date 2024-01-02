@@ -46,14 +46,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  function filterApps() {
-    // Code for filtering apps based on selected categories and search query
-    // Omitted for brevity
-  }
-
   renderApps();
-
-  // Event listeners for category selection and search
-  document.getElementById('category').addEventListener('change', filterApps);
-  document.getElementById('searchbarbottom').addEventListener('input', filterApps);
 });
