@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
      error: false
     },
     {
-     name: "Bike Hero",
-     link: "https://www.coolmathgames.com/0-bike-hero/play",
-     image: "/assets/icons/BikeHero.png",
+     name: "Breaking The Bank",
+     link: "https://f.silvergames.com/ruffle/player.php?id=1303",
+     image: "/assets/icons/HenryStickminBTB.png",
      categories: ['all'],
      error: false
     },
@@ -20,7 +20,105 @@ document.addEventListener('DOMContentLoaded', () => {
      image: "/assets/icons/IdleBreakout.png",
      categories: ['all'],
      error: false
-    }
+    },
+    {
+     name: "FNAF 1",
+     link: "https://run3.io/popgame/fnaf/fnaf1/",
+     image: "/assets/icons/FNAF1.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "FNAF 2",
+     link: "https://run3.io/popgame/fnaf/fnaf2.html",
+     image: "/assets/icons/FNAF2.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "FNAF 3",
+     link: "https://run3.io/popgame/fnaf/fnaf3.html",
+     image: "/assets/icons/FNAF3.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "FNAF 4",
+     link: "https://run3.io/popgame/fnaf/fnaf4.html",
+     image: "/assets/icons/FNAF4.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Duck Life 1",
+     link: "https://www.hoodamath.com/mobile/games/duck-life/game.html?nocheckorient=1",
+     image: "/assets/icons/DuckLife1.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Duck Life 2",
+     link: "https://www.hoodamath.com/mobile/games/duck-life-2-world-champion/game.html?nocheckorient=1",
+     image: "/assets/icons/DuckLife2.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Duck Life 3",
+     link: "https://www.hoodamath.com/mobile/games/duck-life-3-evolution/game.html?nocheckorient=1",
+     image: "/assets/icons/DuckLife3.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Duck Life 4",
+     link: "https://www.hoodamath.com/mobile/games/duck-life-4/game.html?nocheckorient=1",
+     image: "/assets/icons/DuckLife4.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Duck Life 5",
+     link: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fduck-life-5.xml",
+     image: "/assets/icons/DuckLife5.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Duck Life 6",
+     link: "https://www.hoodamath.com/mobile/games/duck-life-6-space/game.html?nocheckorient=1",
+     image: "/assets/icons/DuckLife6.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Super Mario Bros",
+     link: "https://supermario.ee/mario.html",
+     image: "/assets/icons/SuperMarioBros.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Super Mario Bros 2",
+     link: "https://kiz10.com/upload/games/htmlgames/super-mario-bros-2/index.html",
+     image: "/assets/icons/SuperMarioBros2.jpg",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Super Mario Bros 3",
+     link: "https://4gameground.com/nnes/?nsyst2=nes&nsyst=nes&fl=4_Super_Mario_Bro&rom=nes",
+     image: "/assets/icons/SuperMarioBros3.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Super Mario 64",
+     link: "https://downloads.retrostic.com/play.php?console_slug=n64&rom_url=https://downloads.retrostic.com/roms/Super%20Mario%2064%20%28U%29%20%5B%21%5D.zip",
+     image: "/assets/icons/SuperMario64.png",
+     categories: ['all'],
+     error: false
+    },
  ];
   
   function saveToLocal(path) {
