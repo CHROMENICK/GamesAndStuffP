@@ -143,12 +143,11 @@ div#particles-js {
 .main {
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0%;
+  position: absolute;
 }
-.searching {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    top: 0%;
-    position: absolute;
