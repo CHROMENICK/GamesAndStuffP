@@ -12,7 +12,6 @@ nav .navitems {
                           	font-size: 22px;
                             	left: 0;
                               	right: 0;
-                                	min-height: 10vh;
                                   	padding: 0;
                                       	background-color: rgba(255, 255, 255, 0.02);
                                         	box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
@@ -20,8 +19,7 @@ nav .navitems {
                                             	transition: 0.35s ease;
                                               	z-index: 100;
                                                 backdrop-filter: blur(10px);
-                                                width: fill;
-                                                margin: 15px;
+                                                margin-bottom: 125px;
 }
 nav a {
       color: var(--text);
