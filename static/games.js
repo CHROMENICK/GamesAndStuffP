@@ -119,6 +119,13 @@ document.addEventListener('DOMContentLoaded', () => {
      categories: ['all'],
      error: false
     },
+    {
+     name: "Supeer Mario 64",
+     link: "https://www.xbox.com/en-US/play/launch/fortnite/BT5P2X999VH2",
+     image: "/assets/icons/SuperMario64.png",
+     categories: ['all'],
+     error: false
+    },
  ];
   
   function saveToLocal(path) {
