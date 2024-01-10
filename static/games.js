@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
      name: "Escaping The Prison",
      link: "https://f.silvergames.com/ruffle/player.php?id=1302",
-     image: "/assets/icons/HenryStickminESP.png",
+     image: "/assets/icons/HenryStickminETP.png",
      categories: ['all'],
      error: false
     },
@@ -144,13 +144,6 @@ document.addEventListener('DOMContentLoaded', () => {
      name: "Fleeing The Complex",
      link: "https://f.silvergames.com/ruffle/player.php?id=5195",
      image: "/assets/icons/HenryStickminFTC.png",
-     categories: ['all'],
-     error: false
-    },
-    {
-     name: "Run 3",
-     link: "https://unblocked1889.github.io/R033/tn6pS9dCf37xAhkJv/",
-     image: "/assets/icons/Run3.png",
      categories: ['all'],
      error: false
     },
@@ -186,13 +179,6 @@ document.addEventListener('DOMContentLoaded', () => {
      name: "Monkey Mart",
      link: "https://slope-game.github.io/newgame/monkey-mart/",
      image: "/assets/icons/MonkeyMart.png",
-     categories: ['all'],
-     error: false
-    },
-    {
-     name: "Run 3",
-     link: "https://unblocked1889.github.io/R033/tn6pS9dCf37xAhkJv/",
-     image: "/assets/icons/Run3.png",
      categories: ['all'],
      error: false
     },
