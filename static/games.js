@@ -120,9 +120,261 @@ document.addEventListener('DOMContentLoaded', () => {
      error: false
     },
     {
-     name: "Supeer Mario 64",
-     link: "https://www.xbox.com/en-US/play/launch/fortnite/BT5P2X999VH2",
-     image: "/assets/icons/SuperMario64.png",
+     name: "Escaping The Prison",
+     link: "https://f.silvergames.com/ruffle/player.php?id=1302",
+     image: "/assets/icons/HenryStickminESP.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Stealing The Diamond",
+     link: "https://f.silvergames.com/ruffle/player.php?id=1301",
+     image: "/assets/icons/HenryStickminSTD.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Infiltrating The Airship",
+     link: "https://f.silvergames.com/ruffle/player.php?id=3011",
+     image: "/assets/icons/HenryStickminITA.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Fleeing The Complex",
+     link: "https://f.silvergames.com/ruffle/player.php?id=5195",
+     image: "/assets/icons/HenryStickminFTC.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Run 3",
+     link: "https://unblocked1889.github.io/R033/tn6pS9dCf37xAhkJv/",
+     image: "/assets/icons/Run3.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Run 3",
+     link: "https://unblocked1889.github.io/R033/tn6pS9dCf37xAhkJv/",
+     image: "/assets/icons/Run3.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "OvO",
+     link: "https://75jfh73gd9hla64g-opensocial.googleusercontent.com/gadgets/ifr?url=https://googleusercontent.b-cdn.net/ovo/ovo.xml",
+     image: "/assets/icons/OvO.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Wrestle Bros",
+     link: "https://wrestlebros.io/",
+     image: "/assets/icons/WrestleBros.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Basket Bros",
+     link: "https://basketbros.io",
+     image: "/assets/icons/BasketBros.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Monkey Mart",
+     link: "https://slope-game.github.io/newgame/monkey-mart/",
+     image: "/assets/icons/MonkeyMart.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Run 3",
+     link: "https://unblocked1889.github.io/R033/tn6pS9dCf37xAhkJv/",
+     image: "/assets/icons/Run3.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Subway Surfers",
+     link: "https://kazwire.com/game/static/subway-surfers/index.html",
+     image: "/assets/icons/SubwaySurfers.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Slope",
+     link: "https://slope-game.github.io/rungame/slope/",
+     image: "/assets/icons/Slope.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Bitlife",
+     link: "https://bitlifeonline.github.io/class/index.html",
+     image: "/assets/icons/Bitlife.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Friday Night Funkin'",
+     link: "https://static.playunblocked.com/2021/04/friday-night-funkin/",
+     image: "/assets/icons/FNF.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "JustFall.lol",
+     link: "https://justfall.lol/",
+     image: "/assets/icons/JustFallLOL.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "1v1.lol",
+     link: "https://1v1.lol/",
+     image: "/assets/icons/1v1LOL.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Backrooms",
+     link: "https://kdata1.com/2022/05/backroom16/",
+     image: "/assets/icons/Backrooms.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Cookie Clicker",
+     link: "https://webglmath.github.io/cookie-clicker/",
+     image: "/assets/icons/CookieClicker.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Tiny Fishing",
+     link: "https://www.dob5.com/d/file/games/tiny-fishing/",
+     image: "/assets/icons/TinyFishing.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Minecraft",
+     link: "https://sd592g.github.io/zj684od4lfg/",
+     image: "/assets/icons/Minecraft.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Baldi's Basics",
+     link: "https://igroutka.ru/loader/game/26471/",
+     image: "/assets/icons/BaldisBasics.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Dino Game",
+     link: "https://offline-dino-game.firebaseapp.com/",
+     image: "/assets/icons/DinoGame.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Flappy Bird",
+     link: "https://flappy-bird.io/flappy-bird.embed",
+     image: "/assets/icons/FlappyBird.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Crossy Road",
+     link: "https://kazwire.com/game/static/crossy-road/index.html",
+     image: "/assets/icons/CrossyRoad.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Drive Mad",
+     link: "https://g.vseigru.net/10/igra-dzhipy-bezumnoe-vozhdenie/",
+     image: "/assets/icons/DriveMad.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Powerline.io",
+     link: "https://powerline.io/",
+     image: "/assets/icons/Powerlineio.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Paper.io",
+     link: "https://games.voodoo.io/paperio2/",
+     image: "/assets/icons/Paperio.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Krunker.io",
+     link: "https://krunker.io/",
+     image: "/assets/icons/Krunkerio.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Hole.io",
+     link: "https://hole-io.com/",
+     image: "/assets/icons/Holeio.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Sonic The Hedgehog",
+     link: "https://megadrive-emulator.com/game/?game=Sonic_the_Hedgehog.bin",
+     image: "/assets/icons/SonicTheHedgehog.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Sonic The Hedgehog 2",
+     link: "https://megadrive-emulator.com/game/?game=Sonic_the_Hedgehog_2_JUE.bin",
+     image: "/assets/icons/SonicTheHedgehog2.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Tunnel Rush",
+     link: "https://webglmath.github.io/tunnel-rush/",
+     image: "/assets/icons/TunnelRush.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Clicker Heroes",
+     link: "https://www.gameslol.net/data/clicker-heroes/index.html",
+     image: "/assets/icons/ClickerHeroes.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Retro Bowl",
+     link: "https://retrobowlmod.com/retro-bowl.embed",
+     image: "/assets/icons/RetroBowl.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Osw!",
+     link: "https://joshua-usi.github.io/osw",
+     image: "/assets/icons/osw.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "A Dance Of Fire And Ice",
+     link: "https://kazwire.com/game/static/a-dance-of-fire-and-ice/index.html",
+     image: "/assets/icons/ADOFAI.png",
      categories: ['all'],
      error: false
     },
