@@ -364,6 +364,20 @@ document.addEventListener('DOMContentLoaded', () => {
      categories: ['all'],
      error: false
     },
+    {
+     name: "Fortnite (Account Required)",
+     link: "https://www.xbox.com/en-US/play/games/fortnite/BT5P2X999VH2",
+     image: "/assets/icons/Fortnite.png",
+     categories: ['all'],
+     error: false
+    },
+    {
+     name: "Nut Simulator",
+     link: "https://nutsimulator.github.io/index.html",
+     image: "/assets/icons/NutSimulator.png",
+     categories: ['all'],
+     error: false
+    },
  ];
   
   function saveToLocal(path) {
