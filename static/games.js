@@ -51,28 +51,28 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
      name: "Duck Life 1",
-     link: "https://www.hoodamath.com/mobile/games/duck-life/game.html?nocheckorient=1",
+     link: "https://www.hoodamath.com/mobile/games/duck-life/game.html",
      image: "/assets/icons/DuckLife1.png",
      categories: ['all'],
      error: false
     },
     {
      name: "Duck Life 2",
-     link: "https://www.hoodamath.com/mobile/games/duck-life-2-world-champion/game.html?nocheckorient=1",
+     link: "https://www.hoodamath.com/mobile/games/duck-life-2-world-champion/game.html",
      image: "/assets/icons/DuckLife2.png",
      categories: ['all'],
      error: false
     },
     {
      name: "Duck Life 3",
-     link: "https://www.hoodamath.com/mobile/games/duck-life-3-evolution/game.html?nocheckorient=1",
+     link: "https://www.hoodamath.com/mobile/games/duck-life-3-evolution/game.html",
      image: "/assets/icons/DuckLife3.png",
      categories: ['all'],
      error: false
     },
     {
      name: "Duck Life 4",
-     link: "https://www.hoodamath.com/mobile/games/duck-life-4/game.html?nocheckorient=1",
+     link: "https://www.hoodamath.com/mobile/games/duck-life-4/game.html",
      image: "/assets/icons/DuckLife4.png",
      categories: ['all'],
      error: false
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
      name: "Duck Life 6",
-     link: "https://www.hoodamath.com/mobile/games/duck-life-6-space/game.html?nocheckorient=1",
+     link: "https://www.hoodamath.com/mobile/games/duck-life-6-space/game.html",
      image: "/assets/icons/DuckLife6.png",
      categories: ['all'],
      error: false
