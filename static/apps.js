@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
     {
      name: "G&S Chat Room",
      link: "https://e.widgetbot.io/channels/1191829882334875770/1191829882859180135",
-     image: "/assets/icons/Chatroom.jpg",
+     image: "/assets/icons/ChatRoom.png",
      categories: ['all'],
      error: false
     },
     {
-     name: "G&S Drawing Canvas",
+     name: "G&S Canvas (Account Required)",
      link: "https://pixel.land/canvas/u1il1757/draw/KyHaXoQepjboofIB",
      image: "/assets/icons/canvas.jpg",
      categories: ['all'],
