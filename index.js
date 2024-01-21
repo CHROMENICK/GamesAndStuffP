@@ -29,7 +29,7 @@ const routes = [
   { path: '/settings', file: 'settings.html' },
 ]
 
-app.get('/edu/*', cors({ origin: false }), async (req, res, next) => {
+app.get('/y/*', cors({ origin: false }), async (req, res, next) => {
   try {
     const reqTarget = `https://raw.githubusercontent.com/ypxa/y/main/${req.params[0]}`
     const asset = await fetch(reqTarget)
