@@ -10,19 +10,106 @@ type="image/png"
         <title>Games & Stuff</title>
             <link rel="stylesheet" href="style.css">
                 <link href='https://fonts.googleapis.com/css?family=Lato:wght@700' rel='stylesheet' type='text/css'>
+    <!--- Style --->
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        iframe {
+            display: block;
+            background: #000;
+            border: none;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        
+        .navbtn1 {
+            font-family: Lato, sans-serif;
+            float: right;
+            border-radius: 100%;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border: none;
+            position: fixed;
+            top: 10px;
+            right: 10px;
+        }
+        
+        .navbtn2 {
+            font-family: Lato, sans-serif;
+            float: right;
+            border-radius: 100%;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border: none;
+            position: fixed;
+            top: 70px;
+            right: 10px;
+        }
+    </style>
 </head>
 
 <body>
-    <iframe
-      src=""
-      id="ifra"
-      onload="iframeLoad()"
-      scrolling="yes"
-      frameborder="0"
-      allowfullscreen></iframe>
-    <script src="js/scripts/index.js?v=9"></script>
-    <script src="js/scripts/frame.js?v=26"></script>
-    <script src="./uv/bundle.js?v=5"></script>
-    <script src="./uv/config.js?v=5"></script>
+    <script>
+        window.addEventListener('resize', navigator.keyboard.lock(["Escape"]));
+    </script>
+    <iframe src="" id="iframeId" style="bottom: 0" style="border: 0px #ffffff none" name="Iframe" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" height="100%" width="100%" allowfullscreen></iframe>
+
+      <button id="home-page" class="navbtn1" onclick="reload()">Home</button>
+      <button id="fullscreen-button" class="navbtn2">FS</button>
+    </button>
+    <script>
+
+        function reload() {
+            document.getElementById("iframeId").src = document.getElementById("iframeId").src;
+        }
+        // Very epic html editing :)
+        function erudaToggle() {
+            const proccy = document.getElementById("iframeId");
+            if (!proccy) return;
+        
+            const proccyWindow = proccy.contentWindow;
+            const proccyDocument = proccy.contentDocument;
+        
+            if (!proccyWindow || !proccyDocument) return;
+        
+            if (proccyWindow.eruda?._isInit) {
+                proccyWindow.eruda.destroy();
+            } else {
+                let script = proccyDocument.createElement('script');
+                script.src = "https://cdn.jsdelivr.net/npm/eruda";
+                script.onload = function() {
+                    if (!proccyWindow) return;
+                    proccyWindow.eruda.init();
+                    proccyWindow.eruda.show();
+                }
+                proccyDocument.head.appendChild(script);
+            }
+        }
+        const fullscreenButton = document.getElementById("fullscreen-button");
+        fullscreenButton.addEventListener("click", function() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen();
+            } else {
+                document.exitFullscreen();
+            }
+        });
+        const homeButton = document.getElementById("home-page");
+        homeButton.addEventListener("click", function() {
+            window.location.href = "./";
+        });
+        window.onload = function() {
+            let encodedUrl = sessionStorage.getItem("encodedUrl");
+            encodedUrl = "/reviews/" + encodedUrl;
+            console.log(encodedUrl);
+            document.querySelector("#iframeid").src = encodedUrl;
+            let iframe = document.querySelector("#iframeId");
+            iframe.src = encodedUrl;
+        };
+    </script>
     <script src="/js/index.js"></script>
 </body>
